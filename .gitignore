@@ -1,0 +1,25 @@
+# Fichiers système
+.DS_Store
+Thumbs.db
+
+# Cache et logs
+cache/
+logs/
+*.log
+debug.log
+
+# Configurations locales
+.env
+.env.local
+.env.*.local
+config.php
+
+# Dépendances et fichiers générés
+vendor/
+node_modules/
+composer.lockgit
+package-lock.json
+
+# Fichiers d’upload temporaires
+uploads/
+tmp/
