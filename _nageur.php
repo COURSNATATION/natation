@@ -1,9 +1,6 @@
 <?php
-// Définir le titre de la page
+// Définir le titre de la page pour index.php
 $title = "Natation";
-
-// Inclure le fichier d'en-tête (navbar)
-require '_header.php';
 ?>
 
 <section class="content-area">
@@ -80,8 +77,3 @@ require '_header.php';
         </div>
     </div>
 </section>
-
-<?php
-// Inclure le fichier de pied de page (footer)
-require '_footer.php';
-?>
